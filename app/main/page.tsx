@@ -1,5 +1,5 @@
 "use client";
-
+//no deal
 import { NextPage } from "next";
 import { useState } from "react";
 import HomePage from "./HomePage";
