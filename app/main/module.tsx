@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import NavDestop from "../Components/SideBarDesktop";
 import { ClerkLoading, useUser } from "@clerk/nextjs";
 import { redirect } from "next/navigation";
 import { Loader2 } from "lucide-react";
@@ -30,7 +29,6 @@ const MainApp = () => {
   return (
     <div className="flex justify-center">
       <div className="flex max-w-[1300px] w-full p-4">
-        <NavDestop className="hidden lg:flex" />
         {/* Your main content goes here */}
         <div className="flex-grow">
           <h1>Welcome to the main app!</h1>
