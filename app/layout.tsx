@@ -2,15 +2,15 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Head from "next/head";
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  SignInButton,
-  UserButton,
-} from "@clerk/nextjs";
+import { ClerkProvider } from "@clerk/nextjs";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Memrinc - Preserve & Share Memories",
+  description:
+    "Our platform allows users to upload photos, videos, and even written memories, all stored in a safe digital memory vault, accessible anytime, anywhere",
+};
 
 export default function RootLayout({
   children,

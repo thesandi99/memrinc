@@ -20,11 +20,7 @@ const NavDestop: NextPage<{ setActivePage: (page: string) => void }> = ({
     "mb-5 ml-5 mt-5 hidden text-3xl font-bold text-[#afa98ce6] lg:block";
   const ul = "flex flex-col items-stretch gap-3";
   const ulli = "flex flex-1 *:dark:hover:bg-gray-700  *:hover:bg-pink-200 ";
-  const butotnsrt = `flex grow items-center gap-3 rounded-xl border-2 px-2 py-1 text-sm font-bold uppercase ${
-    activePage === "home"
-      ? "border-[5px] bg-antiquewhite text-[#a58f8f] border-[#a58f8f] rounded-[15px]"
-      : ""
-  }`;
+
   const span = "sr-only lg:not-sr-only";
 
   return (

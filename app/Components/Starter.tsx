@@ -13,7 +13,7 @@ import {
   SignOutButton,
   SignUpButton,
 } from "@clerk/nextjs";
-import { Loader, Loader2 } from "lucide-react";
+import { Loader2 } from "lucide-react";
 
 const bgSnow = _bgSnow as StaticImageData;
 

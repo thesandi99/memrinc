@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 type SidebarItemProps = {
   label: string;
@@ -11,9 +10,6 @@ type SidebarItemProps = {
 };
 
 export const SidebarItem = ({ label, iconSrc, href }: SidebarItemProps) => {
-  const pathname = usePathname();
-  const isActive = pathname === href;
-
   return (
     <div className=" mt-4 p-2 rounded-sm">
       <Link href={href} className="flex items-center border-gray-700">
